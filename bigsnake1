@@ -2,12 +2,6 @@
 pipeline {
     agent any
     
-    environment {
-        
-        IMAGE_NAME = 'chandanbr/bigsnake10'
-		
-    }
-
     stages {
 
         stage('Clone') {
